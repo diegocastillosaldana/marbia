@@ -1,0 +1,464 @@
+@media(min-width:992px){
+    .services-all{
+        height: 380px;
+    }
+    .services-all .campanas-promociones .e-promo-slider__item img {
+        width: 287px;
+    }
+    .services-all .campanas-promociones .e-promo-slider__item .container_text{
+        left: 14%;
+        width: 70%;
+    }
+    .services-all .campanas-promociones .e-promo-slider__item .container_text h4{
+        margin-top: 52px;
+        margin-bottom: 20px;
+        font-size: 17px;
+    }
+    .services-all .campanas-promociones .e-promo-slider__item .container_text p{
+        font-size: 14px;
+        margin-right: 15px;
+        margin-top: -24px;
+    }
+    .services-all .campanas-promociones .e-promo-slider__item .container_text h4.text-special {
+        margin-top: 13px;
+        margin-bottom: 26px;
+    }
+    .slick-prev {
+        left: -12px;
+    }
+}
+
+@media(min-width:1080px){
+    .services-all .campanas-promociones .e-promo-slider__item img {
+        width: 310px;
+    }
+    .services-all .campanas-promociones .e-promo-slider__item .container_text{
+        left: 14%;
+        width: 70%;
+    }
+    .services-all .campanas-promociones .e-promo-slider__item .container_text h4{
+        margin-top: 51px;
+        margin-bottom: 21px;
+        font-size: 20px;
+    }
+    .services-all .campanas-promociones .e-promo-slider__item .container_text p{
+        font-size: 14px;
+    }
+}
+@media(min-width:1200px){
+    .services-all {
+        height: 427px;
+    }
+    .services-all .campanas-promociones .e-promo-slider__item img {
+        width: 355px;
+    }
+    .services-all .campanas-promociones .e-promo-slider__item .container_text{
+        left: 14%;
+        width: 70%;
+    }
+    .services-all .campanas-promociones .e-promo-slider__item .container_text h4{
+        margin-top: 75px;
+        margin-bottom: 21px;
+        font-size: 21px;
+    }
+    .services-all .campanas-promociones .e-promo-slider__item .container_text p{
+        font-size: 16px;
+        margin-top: -31px;
+    }
+    .services-all .campanas-promociones .e-promo-slider__item .container_text h4.text-special {
+        margin-top: 56px;
+        margin-bottom: 36px;
+    }
+    .services-all .campanas-promociones .e-promo-slider__item .container_text button{
+        bottom: 32px;
+    }
+}
+@media(min-width:1400px){
+    .services-all{
+        height: 465px;
+    }
+    .services-all .campanas-promociones .e-promo-slider__item .container_text h4.text-special{
+        line-height: 28px;
+        margin-bottom: 32px;
+    }
+    .services-all .campanas-promociones .e-promo-slider__item img {
+        width: 400px;
+    }
+
+    .services-all .campanas-promociones .e-promo-slider__item .container_text h4{
+        margin-top: 67px;
+        font-size: 28px;
+    }
+    .section_who_we_are .container_items .container_left img{
+        width: 90%;
+    }
+    .services-all .campanas-promociones .e-promo-slider__item .container_text p{
+        font-size: 22px;
+        line-height: 22px;
+    }
+}
+@media(min-width:1600px){
+    .services-all{
+        height: 493px;
+    }
+    .services-all .campanas-promociones .e-promo-slider__item .container_text h4{
+        margin-top: 80px;
+        margin-bottom: 30px;
+        font-size: 25px;
+    }
+    .services-all .campanas-promociones .e-promo-slider__item .container_text button {
+        bottom: 41px;
+        left: 52px;
+    }
+    .services-all .campanas-promociones .e-promo-slider__item .container_text button#outdoor-elements {
+        bottom: 38px;
+    }
+    .services-all .campanas-promociones .e-promo-slider__item .container_text h4.text-special {
+        margin-top: 69px;
+    }
+    .services-all .campanas-promociones .e-promo-slider__item .container_text p{
+        font-size: 20px;
+        margin-top: -18px;
+        margin-left: 56px;
+        margin-right: 30px;
+    }
+    .services-all .campanas-promociones .e-promo-slider__item img {
+        width: 440px;
+    }
+
+    .section_who_we_are .container_items .container_left img{
+        width: 80%;
+    }
+    #icon_name,#icon_correo,#icon_number{
+        right: 30px;
+    }
+}
+@media(min-width:1920px){
+    .services-all{
+        height: 554px;
+    }
+    .services-all .campanas-promociones .e-promo-slider__item img {
+        width: 510px;
+    }
+    .section_who_we_are .container_items .container_left img{
+        width: 73%;
+    }
+    #icon_name,#icon_correo,#icon_number{
+        right: 40px;
+    }
+    .services-all .campanas-promociones .e-promo-slider__item .container_text h4{
+        margin-top: 121px;
+        margin-bottom: 21px;
+        font-size: 29px;
+    }
+    .services-all .campanas-promociones .e-promo-slider__item .container_text p{
+        font-size: 21px;
+        line-height: 26px;
+        margin-left: 84px;
+    }
+    .services-all .campanas-promociones .e-promo-slider__item .container_text button{
+        width: 160px;
+        height: 41px;
+        left: 81px;
+        bottom: 41px;
+    }
+    .services-all .campanas-promociones .e-promo-slider__item .container_text h4.text-special {
+        margin-top: 107px;
+    }
+}
+@media(min-width:2200px){
+    .section_who_we_are .container_items .container_left img{
+        width: 60%;
+    }
+    .services-all .campanas-promociones .e-promo-slider__item .container_text h4.text-special {
+        margin-top: 70px;
+        font-size: 27px;
+     }
+}
+@media(max-width:425px){
+    nav .logo_mabia_mob{
+        display: block;
+        top: 17px;
+    }
+    nav .logo_mabia{
+        display: none;
+    }
+    .nav-desk{
+        display: none;
+    }
+    nav .icon_menu{
+        display: block;
+    }
+    header{
+        background-image: url(../images/banner_principal_Marbia_mob_new.png);
+        text-align: center;
+        background-size: contain;
+        height: 590px;
+    }
+    header .container_text{
+        width: 94%;
+        height: 100px;
+        top: 380px;
+    }
+    header .container_text h1{
+        margin-left: 28px;
+        margin-top: 14px;
+        width: 90%;
+    }
+    header  button{
+        position: relative;
+        margin-top: 412px;
+        width: 142px;
+        height: 44px;
+        top: 79px;
+        left: -86px;
+    }
+   .section_who_we_are{
+        height: 758px;
+        padding-top: 37px;
+   }
+   .section_who_we_are .container_items{
+       display: block;
+   }
+   .section_who_we_are .container_items .container_left{
+       width: 100%;
+       height:200px;
+   }
+   .section_who_we_are .container_items .container_left img{
+       width: 90%;
+   }
+   .section_who_we_are .container_items .container_right{
+       width: 100%;
+       text-align: center;
+   }
+   .section_who_we_are .container_items .container_right .container_text{
+        width: 90%;
+        margin: 2px auto;
+   }
+   .services-all{
+       height: 400px;
+   }
+   .services-all .campanas-promociones{
+       padding: 0;
+   }
+   .services-all .campanas-promociones .e-promo-slider__item .container_text{
+       width: 72%;
+       left: 60px;
+   }
+   .services-all .campanas-promociones .e-promo-slider__item .container_text h4{
+       font-size: 23px;
+       margin-top: 55px;
+       line-height: 21px;
+   }
+   .services-all .campanas-promociones .e-promo-slider__item .container_text p{
+       font-size: 20px;
+       line-height: 20px;
+        margin-top: -22px;
+        margin-left: 21px;
+        margin-right: 17px;
+   }
+   .services-all .campanas-promociones .e-promo-slider__item .container_text button{
+       width: 127px;
+       height: 37px;
+       left: 85px;
+       bottom: 32px;
+   }
+   .contact-us{
+       height: 1480px;
+       padding-top: 50px;
+   }
+   .contact-us .container_items{
+       display: block;
+       width: 100%;
+       margin: -96px auto;
+       height:948px;
+   }
+   .contact-us .container_items .container_text{
+        width: 100%;
+        height: 410px;
+   }
+   .contact-us .container_items .container_text .text{
+       text-align: center;
+       margin: 113px auto;
+   }
+   
+   .contact-us .container_items .container_text .text img{
+       width: 100%;
+   }
+   .contact-us .container_items .container_form{
+        width: 100%;
+        height: 563px;
+   }
+   .contact-us .container_items .container_form form{
+       width: 85%;
+   }
+   .contact-us hr{   
+        margin-top: -21px;
+        margin-bottom: 33px;
+   }
+   .contact-us .container_contacts{
+       display: block;
+   }
+   .contact-us .container_contacts{
+       display: block;
+   }
+   .contact-us .container_contacts .container_phone{
+       width: 100%;
+   }
+   .contact-us .container_contacts .container_email{
+       width: 100%;
+   }
+    .contact-us .container_contacts .container_instagram{
+        width: 100%;
+     }
+   .contact-us .container_contacts .container_email .container_elements p{
+       font-size: 24px;
+   }
+   .contact-us .container_items .container_form form .container_input p{
+        top: -5px;
+        left: 10px;
+   }
+   .contact-us .container_items .container_form form .container_input #alert_terms{
+       left: 19px;
+   }
+   .contact-us .container_items .container_form form .container_input #flecha{
+       left: 22px;
+   }
+   .modal-about-us .container-modal{
+       width: 80%;
+       height: 571px;
+       padding: 25px;
+       overflow-y: scroll;
+   }
+   /* mediaqueries modal one */
+   .modal-services .container-modal{
+    width: 90%;
+    height: 600px;
+    }
+    .modal-services .container-modal .container-slick{
+        padding: 0;
+    }
+    .modal-services .container-modal .container-slick .e-photo-slider__item .container_text{
+        left: 25px;
+        width: 87%;
+        bottom:-14px;
+    }
+   .modal-services .container-modal .description_services{
+    height: 200px;
+    overflow-y: scroll;
+   }
+   .modal-services .container-modal .container-slick .e-photo-slider .slick-dots li{
+       background: #929292;
+   }
+    /* mediaqueries modal two */
+   .modal-services-two .container-modal{
+    width: 90%;
+    height: 600px;
+    }
+    .modal-services-two .container-modal .container-slick{
+        padding: 0;
+    }
+    .modal-services-two .container-modal .container-slick .e-photo-slider__item .container_text{
+        left: 25px;
+        width: 87%;
+        bottom: -14px;
+    }
+   .modal-services-two .container-modal .description_services{
+    height: 200px;
+    overflow-y: scroll;
+   }
+   .modal-services-two .container-modal .container-slick .e-photo-slider .slick-dots li{
+       background: #929292;
+   }
+
+    .modal-services-two .container-modal .container-slick .e-photo-slider__item {
+        width: 383px;
+    }
+    /* mediaqueries modal two */
+   .modal-services-three .container-modal{
+    width: 90%;
+    height: 640px;
+    }
+    .modal-services-three .container-modal .container-slick{
+        padding: 0;
+    }
+    .modal-services-three .container-modal .container-slick .e-photo-slider__item .container_text{
+        left: 25px;
+        width: 87%;
+        bottom: -14px;
+    }
+   .modal-services-three .container-modal .description_services{
+    height: 200px;
+    overflow-y: scroll;
+   }
+   .modal-services-three .container-modal .container-slick .e-photo-slider .slick-dots li{
+       background: #929292;
+   }
+    .modal-services-three .container-modal .container-slick .e-photo-slider__item {
+        width: 383px;
+    }
+
+     /* mediaqueries modal four */
+   .modal-services-four .container-modal{
+    width: 90%;
+    height: 600px;
+    }
+    .modal-services-four .container-modal .container-slick{
+        padding: 0;
+    }
+    .modal-services-four .container-modal .container-slick .e-photo-slider__item .container_text{
+        left: 25px;
+        width: 87%;
+        bottom: -14px;
+    }
+   .modal-services-four .container-modal .description_services{
+    height: 200px;
+    overflow-y: scroll;
+   }
+   .modal-services-four .container-modal .container-slick .e-photo-slider .slick-dots li{
+       background: #929292;
+   }
+
+    .modal-services-four .container-modal .container-slick .e-photo-slider__item {
+        width: 378px !important;
+    }
+    /* mediaqueries modal five */
+   .modal-services-five .container-modal{
+    width: 90%;
+    height: 600px;
+    }
+    .modal-services-five .container-modal .container-slick{
+        padding: 0;
+    }
+    .modal-services-five .container-modal .container-slick .e-photo-slider__item .container_text{
+        left: 25px;
+        width: 87%;
+        bottom: -14px;
+    }
+   .modal-services-five .container-modal .description_services{
+    height: 200px;
+    overflow-y: scroll;
+   }
+   .modal-services-five .container-modal .container-slick .e-photo-slider .slick-dots li{
+       background: #929292;
+   }
+
+    .modal-services-five .container-modal .container-slick .e-photo-slider__item {
+        width: 366px !important;
+    }
+    .contact-us .container_contacts .container_instagram  .container_elements{
+        text-align: center;
+    }
+    .contact-us .container_contacts .container_phone  .container_elements{
+        text-align: center;
+     }
+     .contact-us .container_contacts .container_email  .container_elements{
+        text-align: center;
+     }
+     .services-all .campanas-promociones .e-promo-slider__item .container_text h4.text-special {
+        margin-top: 55px;
+    }
+    #outdoors{
+        bottom: 25px;
+    }
+}

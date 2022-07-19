@@ -1,0 +1,258 @@
+.contact-us{
+    width: 100%;
+    height: 790px;
+    padding-top: 45px;
+
+}
+.contact-us .container_items{
+    width: 95%;
+    margin: auto;
+    background: #fff;
+    height: 501px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.contact-us .container_items .container_text{
+    width: 50%;
+    height: 400px;
+}
+.contact-us .container_items .container_text .text{
+    width: 80%;
+    text-align: left;
+    margin: -22px auto;
+}
+.contact-us .container_items .container_text h4{
+    font-size: 24px;
+    font-weight: 200;
+}
+.contact-us .container_items .container_form{
+    width: 50%;
+    height: 400px;
+    text-align: center;
+}
+.contact-us .container_items .container_form #title_msj{
+    margin-top: 89px;
+    margin-left: 54px;
+    margin-right: 54px;
+    display: none;
+}
+.contact-us .container_items .container_form h3{
+    font-weight: 200;
+    font-size: 25px;
+    margin-top: 6px;
+}
+
+.contact-us .container_items .container_form form{
+    width: 70%;
+    margin: -21px auto;
+    height: 300px;
+}
+.contact-us .container_items .container_form #gif_loader{
+    width: 287px;
+    display:none;
+    margin: auto;
+}
+
+.contact-us .container_items .container_form form .container_input{
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+
+.contact-us .container_items .container_form form .container_input .span_required{
+    position: absolute;
+    top: 3px;
+    left: 22px;
+    background: #fff;
+    color: #F63A3A;
+    font-size: 15px;
+    opacity: 0;
+}
+.contact-us .container_items .container_form form .container_input #alert_terms{
+    width: 218px;
+    height: 25px;
+    position: absolute;
+    top: 28px;
+    left: 67px;
+    background: #F63A3A;
+    color: #fff;
+    padding-top: 4px;
+    border-radius: 8px;
+    font-size: 15px;
+    z-index: 4; 
+    display: none;
+}
+.contact-us .container_items .container_form form .container_input #flecha{
+    width: 17px;
+    height: 17px;
+    background: #F63A3A;
+    position: absolute;
+    top: 25px;
+    left: 70px;
+    z-index: 5;
+    transform: rotate(30deg);
+    display: none;
+}
+
+
+.contact-us .container_items .container_form form .container_input .input-control{
+    width: 90%;
+    height: 53px;
+    border: 1px solid gray;
+    border-radius: 9px;
+    outline: none;
+    padding-left: 24px;
+    margin-top: 28px;
+}
+.contact-us .container_items .container_form form .container_input input[type='submit']{
+    width: 192px;
+    height: 52px;
+    border: none;
+    border-radius: 9px;
+    background: #000;
+    color: #fff;
+    font-size: 22px;
+    cursor: pointer;
+    margin-top: 46px;
+}
+.contact-us .container_items .container_form form .container_input input[type='submit']:hover{
+    background: #fff;
+    color: #000;
+    border:1px solid #000;
+    box-shadow: 1px 4px 7px #7e7e7e;
+}
+
+.contact-us hr{
+    width: 90%;
+    margin-top: -13px;
+    margin-bottom: 17px;
+}
+.contact-us .container_contacts{
+    width: 95%;
+    margin: auto;
+    height: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.contact-us .container_contacts  .container_phone, .container_instagram{
+    width: 30%;
+    height: 180px;
+}
+.contact-us .container_contacts .container_email{
+    width: 37%;
+    height: 180px;
+}
+.contact-us .container_contacts .container_instagram  .container_elements{
+    width: 70%;
+    text-align: center;
+    height: 180px;
+    margin: auto;
+}
+.contact-us .container_contacts .container_phone  .container_elements{
+    width: 70%;
+    text-align: left;
+    height: 180px;
+    margin: auto;
+ }
+ .contact-us .container_contacts .container_email  .container_elements{
+    width: 70%;
+    text-align: left;
+    height: 180px;
+    margin: auto;
+ }
+.contact-us .container_contacts .container_instagram .container_elements{
+    width: 100%;
+    text-align: left;
+    height: 180px;
+    margin: auto;
+}
+.contact-us .container_contacts .container_email .container_elements #icon_email{
+    opacity:0.5;
+    cursor: pointer;
+}
+.contact-us .container_contacts .container_email .container_elements #icon_email:hover{
+    opacity: 1;
+}
+.contact-us .container_contacts .container_phone .container_elements #icon_phone{
+  opacity: 0.5;
+  cursor: pointer;
+}
+.contact-us .container_contacts .container_phone .container_elements #icon_phone:hover{
+    opacity: 1;
+  }
+.contact-us .container_contacts .container_instagram .container_elements #icon_instagram{
+    opacity: 0.5;
+    cursor: pointer;
+  }
+.contact-us .container_contacts .container_instagram .container_elements #icon_instagram:hover{
+    opacity: 1;
+}
+.contact-us .container_contacts .container_phone .container_elements p{
+    font-size: 24px;
+}
+.contact-us .container_contacts .container_email .container_elements p{
+    font-size: 24px;
+}
+.contact-us .container_contacts .container_email .container_elements .text-email{
+    font-size: 15px;
+    margin-top: -14px;
+}
+.contact-us .container_contacts .container_instagram .container_elements p{
+    font-size: 24px;
+}
+
+.contact-us .container_items .container_form form .container_input  p{
+    font-size:14px;
+    position: absolute;
+    top: -8px;
+    left: 68px;
+    z-index: 3;
+}
+.contact-us .container_items .container_form form .container_input  p label{
+    font-size: 12px;
+    color:#000; 
+}
+.contact-us .container_items .container_form form .container_input  p input[type=checkbox]{
+    display: none;
+}
+.contact-us .container_items .container_form form .container_input  p input[type=checkbox] + label{
+    cursor:pointer;
+}
+.contact-us .container_items .container_form form .container_input  p label:before{
+      content:'';
+      background: #7e7e7e;
+      border-radius: 5px;
+      display: inline-block;
+      height: 20px;
+      width: 20px;
+      margin-right:5px;
+      text-align:center;
+      vertical-align:middle;
+      width:20px;
+}
+.contact-us .container_items .container_form form .container_input  p input[type=checkbox]:checked + label:before{
+      content: '✔';
+      font-size: 15px;
+      font-family:'Times New Roman';
+      color:#fff;
+}
+
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type=number]::-moz-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+#icon_name,#icon_correo,#icon_number{
+    position: absolute;
+    top: 44px;
+    right: 18px;
+    color:#7E7E7E;
+    font-size: 20px;
+}

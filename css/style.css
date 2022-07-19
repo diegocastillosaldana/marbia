@@ -1,0 +1,316 @@
+@import url(../css/modal-services.css);
+@import url(../css/modal-about-us.css);
+@font-face {
+    font-family: Barlow-light;
+    src: url(../css/fonts/Barlow-Light.ttf);
+}
+@font-face {
+    font-family: Barlow-semibold;
+    src: url(../css/fonts/Barlow-SemiBold.ttf);
+}
+@font-face {
+    font-family: Barlow-medium;
+    src: url(../css/fonts/Barlow-Regular.ttf);
+}
+body{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: Barlow-medium;
+    position: relative;
+}
+h2{
+    margin-top: 0;
+    font-size: 30px;
+    font-weight: 100;
+    text-align: center;
+}
+button{
+    outline: none;
+    cursor: pointer;
+}
+hr.line{
+    width: 105px  !important;
+    height: 1px;
+    border-radius: 2px;
+    border: none;
+    background: #000;
+    margin-top: -22px;
+    margin-bottom: 40px;
+}
+.menu-mobile{
+    width: 0;
+    height: 260px;
+    background: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    z-index: 12;
+}
+.menu-mobile .menu{
+    display: none;
+}
+.menu-mobile .menu #close_menu{
+    color: #fff;
+    font-weight: 100;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    position: absolute;
+    padding-top: 6px;
+    top: 5px;
+    left:8px;
+    width: 26px;
+    height: 20px;
+    outline: none;
+}
+/* .menu-mobile .menu #close_menu:hover{
+    background: #fff;
+    color: #000;
+} */
+
+.menu-mobile .menu ul{
+    width: 100%;
+    margin-top: 64px;
+}
+.menu-mobile .menu ul li{
+    width: 150px;
+    height: 30px;
+    list-style: none;
+    margin-bottom: 25px;
+    cursor: pointer;
+    -webkit-transition: height 0.7s;
+    -moz-transition: height 0.7s;
+}
+.menu-mobile .menu ul li a{
+    font-size: 26px;
+    color: #fff;
+    text-decoration: none;
+}
+.menu-mobile .menu ul li:hover{
+    height: 40px;
+    border-bottom: 2px solid #fff;
+}
+nav{
+    width: 100%;
+    height: 80px;
+    position: relative;
+    color: black;
+    background-color: #fff;
+    position: fixed;
+    z-index: 10;
+    box-shadow: 0px 4px 5px #7e7e7e;
+    font-family: Barlow-light;
+}
+nav  button.icon-menu-mobile{
+    width: 60px;
+    height: 24px;
+    color: #000;
+    font-size: 15px;
+    border:1px solid #000;
+    background: transparent;
+    display: block;
+    position: absolute;
+    right: 17px;
+    top: 23px;
+}
+nav  button.icon-menu-mobile:hover{
+    color: #fff;
+    background: #000;
+    box-shadow: 1px 4px 7px #7e7e7e;
+}
+nav .icon_menu{
+    position: absolute;
+    right: 10px;
+    top: 15px;
+    width: 39px;
+    cursor: pointer;
+    display: none;
+}
+nav .logo_mabia{
+    width: 236px;
+}
+nav .logo_mabia,.logo_mabia_mob{
+    position: absolute;
+    left: -15px;
+    top:12px;
+    cursor: pointer;
+}
+nav .logo_mabia_mob{
+    display: none;
+}
+
+nav ul{
+    position: absolute;
+    right: 5px;
+    width: 800px;
+    height: 40px;
+    display: block;
+    padding-top: 12px;
+}
+nav ul li{
+    display: inline-block;
+    width: auto;
+    height: 25px;
+    font-size: 20px;
+    margin-left: 86px;
+    text-align: center;
+    cursor: pointer;
+    -webkit-transition: height 0.7s;
+    -moz-transition: height 0.7s;
+    position: relative;
+}
+nav ul li:hover{
+    font-weight: bold;
+} 
+#btn_menu_mobile{
+    display: none;
+    position: absolute;
+    right: 13px;
+    top: 18px;
+    font-size: 37px;
+    cursor: pointer;
+}
+@media(max-width:425px){
+    #btn_menu_mobile{
+        display: block;
+    }
+}
+    
+nav ul li a{
+    color: #000;
+    text-decoration: none;
+}
+nav ul li #border-who-we-are,#border-contact,#border-services{
+    width: 87%;
+    height: 0px;
+    background: #000;
+    position: absolute;
+    left: 8px;
+    top:37px;
+}
+.visited{
+    border-bottom: 3px solid #000;
+    height: 45px;
+}
+header{
+    background-image: url(../images/banner_principal_Marbia.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 600px;
+    position: relative;
+}
+header .container_text{
+    position: absolute;
+    width: 390px;
+    top: 298px;
+    left: 0;
+    height: 92px;
+    background: rgba(0, 0, 0, 0.5);
+    font-family: Barlow-semibold;
+}
+header .container_text h1{
+    font-size: 28px;
+    width: 295px;
+    text-align: left;
+    color: #fff;
+    margin-left: 54px;
+    margin-top: 12px;
+    text-transform: uppercase;
+}
+header button{
+    position: absolute;
+    width: 127px;
+    height: 38px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 8px;
+    top: 404px;
+    left: 55px;
+    border: none;
+    font-size: 14px;
+}
+header button:hover{
+    background: transparent;
+    border:1px solid #fff;
+    color:#fff;
+}
+header #who-we-are{
+    position: absolute;
+    bottom: 90px;
+    height: 5px;
+    width: 20px;
+}
+.section_who_we_are{
+    width: 100%;
+    height: 470px;
+    text-align: center;
+    padding-top: 45px;
+    position: relative;
+}
+.section_who_we_are .container_items{
+    background-color: #fff;
+    margin: auto;
+    height: 370px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.section_who_we_are .container_items .container_left{
+    width: 40%;
+    height: 370px;
+}
+.section_who_we_are .container_items .container_left img{
+    opacity: 0;
+    width: 100%;
+}
+.section_who_we_are .container_items .container_right{
+    width: 60%;
+    height:370px;
+    text-align: left;
+}
+.section_who_we_are .container_items .container_right .container_text{
+    width: 78%;
+    height: 300px;
+    margin: -19px auto;
+ }
+ .section_who_we_are .container_items .container_right .container_text p{
+    font-size: 18px;
+    line-height: 27px;
+ }
+ .section_who_we_are .container_items .container_right .container_text button{
+     width: 192px;
+     height: 52px;
+     background: #000;
+     color: #fff;
+     box-shadow: 1px 4px 7px #7e7e7e;
+     border-radius: 9px;
+     font-size: 19px;
+     margin-top: 15px;
+ }
+ .section_who_we_are .container_items .container_right .container_text button:hover{
+    background: #fff;
+    border:1px solid #000;
+    color: #000;
+ }
+ .section_who_we_are #services{
+     position: absolute;
+     width: 20px;
+     height: 5px;
+     bottom: 35px;
+ }
+
+ footer{
+     width: 100%;
+     height: 80px;
+     background: #CDCDCD;
+     text-align: center;
+     padding-top: 12px;
+ }
+ footer h5{ 
+    color: #7E7E7E;
+    font-size: 17px;
+ }

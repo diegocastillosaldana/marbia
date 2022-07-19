@@ -1,0 +1,181 @@
+.services-all {
+    width: 100%;
+    height: 450px;
+    background: #DDDDDD;
+    padding-top: 45px;
+    position: relative;
+}
+.services-all .campanas-promociones {
+    padding: 0 20px;
+    width: 100%;
+    margin: 50px auto;
+}
+@media (min-width: 1024px) {
+    .services-all .campanas-promociones {
+        max-width: 90%;
+   }
+}
+@media (min-width: 992px) {
+    .services-all .campanas-promociones .e-promo-slider {
+        margin: 0 auto;
+        max-width: 100%;
+   }
+}
+.services-all .campanas-promociones .e-promo-slider__item{
+    position: relative;
+}
+.services-all .campanas-promociones .e-promo-slider__item .container_text{
+    position: absolute;
+    top: 26px;
+    left: 41px;
+    width: 349px;
+    height: 80%;
+    text-align: center;
+}
+
+.services-all .campanas-promociones .e-promo-slider__item .container_text h4{
+    color: #fff;
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+.services-all .campanas-promociones .e-promo-slider__item .container_text p{
+    color: #fff;
+    font-size: 13px;
+    line-height: 15px;
+    margin-top: -30px;
+    margin-left:38px;
+    margin-right: 23px;
+}
+.services-all .campanas-promociones .e-promo-slider__item .container_text button{
+    width: 113px;
+    height: 30px;
+    border: none;
+    border-radius: 6px;
+    background: #000;
+    color: #fff;
+    font-size: 17px;
+}
+.services-all .campanas-promociones .e-promo-slider__item .container_text button:hover{
+    background: transparent;
+    border:1px solid #fff;
+    color:#fff;
+}
+.services-all .campanas-promociones .e-promo-slider__item img {
+    width: 400px;
+    margin: 0 auto;
+}
+@media (max-width: 425px) {
+    .services-all .campanas-promociones .e-promo-slider__item img {
+        width: 324px;
+   }
+}
+.services-all .campanas-promociones .e-promo-slider__item:focus {
+    outline: none !important;
+}
+.services-all .campanas-promociones .e-promo-slider__item__box {
+    width: 350px;
+    max-width: 90%;
+    margin: auto;
+    position: relative;
+    text-align: center;
+}
+@media (min-width: 992px) {
+    .services-all .campanas-promociones .e-promo-slider__item__box {
+        width: 100%;
+   }
+}
+.services-all .campanas-promociones .e-promo-slider .slick-dots {
+    width: 100px;
+    margin: 18px auto 0;
+    bottom: 0;
+    position: relative;
+}
+.services-all .campanas-promociones .e-promo-slider .slick-dots li {
+    background: #fff;
+    height: 9px;
+    width: 9px;
+    display: inline-block;
+    margin: 0 3px;
+    vertical-align: middle;
+}
+.services-all .campanas-promociones .e-promo-slider .slick-dots li:hover{
+    background: #fff;
+    width: 14px;
+    height: 14px;
+}
+.services-all .campanas-promociones .e-promo-slider .slick-dots li.slick-active {
+    background: #fff;
+    width: 14px;
+    height: 14px;
+}
+.services-all .campanas-promociones .e-promo-slider .slick-arrow {
+    z-index: 20;
+}
+.services-all .campanas-promociones .e-promo-slider .slick-arrow:before, .services-all .campanas-promociones .e-promo-slider .slick-arrow:after {
+    content: '';
+    height: 14px;
+    width: 4px;
+    position: absolute;
+    background: #fff;
+}
+@media (min-width: 992px) {
+    .services-all .campanas-promociones .e-promo-slider .slick-arrow:before, .services-all .campanas-promociones .e-promo-slider .slick-arrow:after {
+        height: 23px;
+   }
+}
+.services-all .campanas-promociones .e-promo-slider .slick-arrow:before {
+    top: -3px;
+    left: 0px;
+    transform: rotate(37deg);
+}
+.services-all .campanas-promociones .e-promo-slider .slick-arrow:after {
+    bottom: 18px;
+    left: 0;
+    transform: rotate(-37deg);
+}
+.services-all .campanas-promociones .e-promo-slider .slick-arrow:hover:before, .services-all .campanas-promociones .e-promo-slider .slick-arrow:hover:after {
+    background: #000;
+}
+@media (min-width: 992px) {
+    .services-all .campanas-promociones .e-promo-slider .slick-arrow .slick-prev {
+        left: -3%;
+   }
+}
+@media (max-width: 425px) {
+    .slick-prev{
+        left: 6px !important;
+   }
+}
+.services-all .campanas-promociones .e-promo-slider .slick-arrow.slick-prev:before {
+    left: inherit;
+    right: 0;
+    transform: rotate(-37deg);
+}
+.services-all .campanas-promociones .e-promo-slider .slick-arrow.slick-prev:after {
+    left: inherit;
+    right: 0;
+    transform: rotate(37deg);
+}
+.services-all .campanas-promociones .e-promo-slider .slick-arrow.slick-next {
+    right: -4px;
+}
+@media (min-width: 992px) {
+    .services-all .campanas-promociones .e-promo-slider .slick-arrow.slick-next {
+        right: -3%;
+   }
+}
+.services-all .campanas-promociones .e-promo-slider .slick-arrow.slick-disabled {
+    display: none !important;
+}
+.services-all #contact{
+    position: absolute;
+    width: 20px;
+    height: 5px;
+    bottom: 45px;
+}
+.services-all .campanas-promociones .e-promo-slider__item .container_text h4.text-special{
+    margin-top: 50px;
+}
+.services-all .campanas-promociones .e-promo-slider__item .container_text button#outdoor-elements{
+    bottom: 28px;
+ }

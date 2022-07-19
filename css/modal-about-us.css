@@ -1,0 +1,40 @@
+.modal-about-us{
+    background-color: rgba(0,0,0,.8);
+    position:fixed;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    transition: all 1s;
+    z-index: 999;
+    display: none;
+}
+.modal-about-us .container-modal{
+    width: 535px;
+    height: 630px;
+    margin: 20px auto;
+    background:#fff;
+    border-radius: 7px;
+    position: relative;
+    padding: 41px;
+}
+.modal-about-us .container-modal h2{
+    margin-top: 15px;
+}
+.modal-about-us .container-modal p{
+    font-size: 17px;
+}
+.modal-about-us .container-modal .container_text_about{
+    overflow-y: scroll;
+    height: 517px;
+}
+.modal-about-us .container-modal .close_about{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: none;
+    border:1px solid #000;
+    position: absolute;
+    top: 12px;
+    right: 11px;
+}
